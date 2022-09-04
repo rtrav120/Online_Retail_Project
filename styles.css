@@ -1,0 +1,71 @@
+body {
+  margin:0;
+  font-family: "Cambria", serif;
+}
+
+.main_header_box{
+  margin: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #2F8F9D;
+  position: sticky;
+  top:0;
+}
+
+.main_header{
+  background-color: #2F8F9D;
+  margin:0;
+  height: 40px;
+  color: white;
+}
+
+.spotify_player{
+  margin=0;
+}
+
+.why_container{
+  margin: 0;
+  height: 320px;
+  background-color: #B3E8E5;
+  color:#2F8F9D;
+}
+
+.how_container{
+    margin: 0;
+    height: 320px;
+    background-color: #82DBD8;
+    color: white;
+}
+
+.who_container{
+  margin: 0;
+  height: 320px;
+  background-color: #B3E8E5;
+  color:#2F8F9D;
+}
+
+.items_container{
+    margin: 0;
+    height: 420px;
+    background-color: #82DBD8;
+    color: white;
+}
+
+h2 {
+  margin: 0;
+  padding:20px;
+  width: 100%;
+}
+
+.img_td{
+  padding-right: 40px;
+}
+
+.why_statement{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box_img{
+  border: 5px solid #555;
+}

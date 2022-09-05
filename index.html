@@ -2,28 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title></title>
   </head>
   <body>
 
     <center>
       <div class="main_header_box">
-        <h1 class="main_header">R's Items</h1>
-        <iframe class="spotify_player"style="border-radius:12px" src="https://open.spotify.com/embed/track/6PuoZT4kgw5DrUEdnQ6e01?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h1 class="main_header">R's Games</h1>
+        <p style="color:white; padding:2px;"><em>We search for it for it so you don't have to.</em></p>
+        <!-- <iframe class="spotify_player"style="border-radius:12px" src="https://open.spotify.com/embed/track/6PuoZT4kgw5DrUEdnQ6e01?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+      </div>
+
+      <div class="who_we_are_container">
+        <h2>Who We Are</h2>
+        <table class="info_table">
+          <tr>
+            <td class="img_td"><img class="round_img" src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1600"></td>
+            <td><p styles="color:white;">We come from a group of online sellers that have regrouped and considered their own new model.</p>
+            <p styles="color:white;">After spending time in the online retail world and seeing some of the challenges faced we set out to make things easier.</p>
+            </td>
+          </tr>
+        </table>
       </div>
 
       <div class="why_container">
         <h2>The Why</h2>
         <table class="info_table">
           <tr>
-            <td class="img_td"><img src="https://cdn-icons-png.flaticon.com/512/700/700652.png" style="height:200px; width:auto;"</td>
-            <td><p>The online retail market are full of buyers and sellers.
+            <td class="img_td"><img src="https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="box_img"</td>
+            <td>
+              <p>The online retail market are full of buyers and sellers.
               <br>Some are trying to look for quick deals why others are trying to make a quick buck.<br>
               <br>People trying to make some money by selling their items are often harrased to lower their price or are sent offers way below the typical value.
               <br>This is because resellers selling on a platform often have to find a really good deal for an item just to turn the wheel on their bottom line.
               <br><br><span class="why_statement">Our goal is to allow the interests of the sellers and the resellers to intersect by scanning the markets and cutting out the middle man.</span><br>
-              </p></td>
+              </p>
+            </td>
           </tr>
         </table>
       </div>
@@ -32,10 +47,18 @@
         <h2>How We Operate</h2>
         <table class="info_table">
           <tr>
-            <td class="img_td"><img class="box_img" src="data:image/jpeg;base64,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" style="height:200px; width:auto;"</td>
-            <td><p styles="color:white;">Using our resources, we scan the market looking for deals so you don't have to.
-              <br>By scanning broadly for deals and cutting out platform fees we can sell you our items at prices lower than the average price.
-              <br>Our customers who order our products earlier can enjoy another discount on the items by having us ship our purchased items directly to them.</p>
+            <td class="img_td"><img class="box_img" src="https://images.pexels.com/photos/4560175/pexels-photo-4560175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></td>
+            <td>
+              <ol>
+                <li>Items will be found using resources such as automation and virtual outsourcing.</li>
+                <li>The elimination of platform fees will also further savings for our customers.</li>
+                <li>By utilizing drop shipping, we will be able to add further discounts on our items for customers who accept offers early.</li>
+              </ol>
+              <!-- <p>
+                <br>
+                <br>
+                <br>
+              </p> -->
             </td>
           </tr>
         </table>
@@ -45,51 +68,161 @@
         <h2>Who You Might Be</h2>
         <table class="info_table">
           <tr>
-            <td class="img_td"><img src="https://cdn-icons-png.flaticon.com/512/7481/7481028.png" style="height:200px; width:auto;"</td>
+            <td class="img_td"><img class="box_img" src="https://images.pexels.com/photos/6231/marketing-color-colors-wheel.jpg?auto=compress&cs=tinysrgb&w=1600"></td>
             <td><p> Whether your a reseller or a retail customer our products can be bought by you.</p>
             <p>Resellers and retail customers can simply order from us and have it shiped directly to themselves
               <br>Resellers can place orders on our items and have the option to ship directly to their purchasers if they've lined one up.
               <br>Resellers who set up with us can also have the option of prepurchasing up to 5 items of one type.
             </p>
             </td>
+
           </tr>
         </table>
       </div>
 
       <div class="items_container">
+
         <h2>Current Items</h2>
-        <p>While we plan to expand our areas, our only current listings are video games.
-        <br>Our prices displayed are not final and are subject to change due to changes in the market.
+        <p>
+            We hope to offer a variety of games but are showing our future listings as the following.<br>
+            Our item list is not final and is subject to change due to changes in supply and demand.
         </p>
 
         <table id="game_table">
           <tr>
             <th>Game</th>
             <th>System</th>
-            <th>Disc/No Manual</th>
-            <th>CIB</th>
+
+          <tr>
+              <td>Super Smash Bros Melee</td>
+              <td>Nintendo GameCube</td>
           </tr>
 
           <tr>
-            <td>Super Smash Bros Melee</td>
-            <td>Nintendo GameCube</td>
-            <td>$54.99</td>
-            <td>$69.99</td>
+              <td>Billy Hatcher And The Giant Egg</td>
+              <td>Nintendo GameCube</td>
           </tr>
 
           <tr>
-            <td>Billy Hatcher And The Giant Egg</td>
-            <td>Nintendo GameCube</td>
-            <td>$46.99</td>
-            <td>$74.99</td>
+              <td>Wario Ware Inc GameCube</td>
+              <td>Nintendo GameCube</td>
           </tr>
 
           <tr>
-            <td>Wario Ware Inc GameCube</td>
-            <td>Nintendo GameCube</td>
-            <td>$59.99</td>
-            <td>$74.99</td>
+              <td>Sonic Adventure DX Gamecube</td>
+              <td>Nintendo GameCube</td>
           </tr>
+
+          <tr>
+              <td>Sonic Adventure 2 Battle</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Shadow The Hedgehog Nintendo</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Wario World</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Ocarina of Time Master Quest</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Gamecube Zelda The Windwaker</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Gamecube Super Mario Sunshine</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Chibi Robo Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Fire Emblem Path of Radiance</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Zelda Wind Waker & Ocarina Master Quest Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Pokemon XD Gale of Darkness</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Animal Crossing Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Paper Mario Thousand Year Door</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Mario Party 6</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Mario Kart Double Dash</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Mario Party 5 Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Mario Party 4 for Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>The Simpsons Hit and Run</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Luigi's Mansion Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Zelda Twilight Princess Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Pokemon Colosseum</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Mario Party 7 Gamecube</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
+          <tr>
+              <td>Star Fox Assault</td>
+              <td>Nintendo GameCube</td>
+          </tr>
+
         </table>
 
         <p>Don't see a game you like?</p>
